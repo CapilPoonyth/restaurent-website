@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resto Hub</title>
+<!--========================Font awesome link===============-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<!--============================CSS file ====================-->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--======================header section ===================-->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>RestoHub</a>
+        <nav class="navbar">
+
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">Menu</a>
+            
+
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+
+        </div>
+    </header>
+      <!--======================search form ===================-->
+      <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." id="search-input">
+        <label for="search-input" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+      </form>
+      <!--=======================home section================-->
+      <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class=" swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dishes</span>
+                        <h3>Slow Cooker Chicken Tikka Masala</h3>
+                        <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="Assets/indian food/1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dishes</span>
+                        <h3>Butter Chicken (Murgh Makhani)</h3>
+                        <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                        <a href="#" class="btn"> Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="Assets/indian food/2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dishes</span>
+                        <h3>Butternut Squash Soup</h3>
+                        <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="Assets/soup 2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dishes</span>
+                        <h3>Fries</h3>
+                        <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="Assets/fries.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dishes</span>
+                        <h3>Cajun Chicken with Coriander and Lime Rice</h3>
+                        <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="Assets/3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--========================Dishes section=====================-->
+      <section class="dishes" id="dishes">
+        <h3 class="sub-heading">Our Dishes</h3>
+        <h1 class="heading">Popular Dishes</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="Assets/fries.jpg" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs300.00</span>
+                <a href="#" class="btn"> Order Now</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="Assets/soup 1.jpg" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs300.00</span>
+                <a href="#" class="btn"> Order Now</a>
+
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="Assets/2.jpg" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs300.00</span>
+                <a href="#" class="btn"> Order Now</a>
+
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="Assets/3.jpg" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs300.00</span>
+                <a href="#" class="btn"> Order Now</a>
+
+            </div>
+        </div>
+      </section>
+
+      <!--===============================about section===================-->
+      <section class="about" id="about">
+        <h3 class="sub-heading">About Us</h3>
+        <h1 class="heading">Why Choose Us?</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="Assets/about/1-removebg-preview.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>The Only Best Food In Mauritius </h3>
+                <p>At RestoHub, we take immense pride in our reputation as the ultimate culinary destination in Mauritius. Our commitment to excellence is evident in every aspect of our menu, from the freshest locally sourced ingredients to the meticulous preparation by our talented chefs. With a dedication to preserving the rich flavors of Mauritian cuisine while embracing innovative culinary techniques, we strive to offer an unforgettable dining experience that delights the senses and leaves a lasting impression on every guest.
+
+                    Step into our restaurant and embark on a gastronomic journey unlike any other, where every dish tells a story of passion, creativity, and uncompromising quality. Whether you're savoring our signature seafood delicacies, indulging in our succulent grilled meats, or enjoying our decadent desserts, RestoHub invites you to taste the very best that Mauritius has to offer, all within the warm and welcoming ambiance of our establishment.</p>
+
+                        <div class="icons-container">
+                            <div class="icons">
+                                <i class="fas fa-shipping-fast"></i>
+                                <span> Free delivery</span> <!--if not good, again put <span class=>--> 
+                            </div>
+                        </div>
+
+                        <div class="icons-container">
+                            <div class="icons">
+                                <i class="fas fa-dollar-sign"></i>
+                                <span> Easy Payment</span> <!--if not good, again put <span class=>--> 
+                            </div>
+                        </div>
+
+                        <div class="icons-container">
+                            <div class="icons">
+                                <i class="fas fa-headset"></i>
+                                <span> 24/7 Service</span> <!--if not good, again put <span class=>--> 
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn">Learn More </a>
+
+
+            </div>
+        </div>
+
+
+
+      </section>
+
+      <!--=================================Appentizer section======================-->
+      <section class="menu" id="menu">
+        <h3 class="sub-heading">Appetizers</h3>
+        <h1 class="heading">Today's Speciality</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/appetizers/1.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>DSmoked Salmon Cucumber Rolls</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/appetizers/2.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Bruschetta with Mozzarella, Seared Tomatoes & Roasted Garlic</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/appetizers/3.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Avocado Cucumber Shrimp</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                   
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/appetizers/4.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Baked Sweet Potato Fries</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                  
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+
+      <!--================================Soupes section========================-->
+      <section class="menu" id="menu">
+        <h3 class="sub-heading">Soupes</h3>
+        <h1 class="heading">Today's Speciality</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/soup/1.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Cream of Mushroom Soup</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/soup/2.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Roasted Butternut Squash and Red Pepper Soup</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/soup/3.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Roasted Butternut Squash Soup</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/soup/4.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Creamy Vegan Tomato Soup</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+
+       <!--================================Main Course section========================-->
+       <section class="menu" id="menu">
+        <h3 class="sub-heading">Main Course</h3>
+        <h1 class="heading">Today's Speciality</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/indian food/5.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Tasty Naan and Butter Chicken</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/indian food/1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Slow Cooker Chicken Tikka Masala</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/indian food/2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Butter Chicken (Murgh Makhani)</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/indian food/6.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Butter Chicken (Murgh Makhani)</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+
+       <!--================================Pizza section========================-->
+       <section class="menu" id="menu">
+        <h3 class="sub-heading">Pizza</h3>
+        <h1 class="heading">Today's Speciality</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/pizza/1.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Pepperoni and Burrata Pizza with Pesto</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/pizza/2.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Broccoli pizza and pasta</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/pizza/3.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Pizza</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/pizza/4.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Broccoli pizza and pasta</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+
+       <!--================================Dessert section========================-->
+       <section class="menu" id="menu">
+        <h3 class="sub-heading">Desserts</h3>
+        <h1 class="heading">Today's Speciality</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/dessert/1.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Rustic Buttercream</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/dessert/2.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Red Velvet Cranberry Panna Cotta Cakes</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                   
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs500</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/dessert/3.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Gingerbread Cranberry Panna Cotta Cakes</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs672</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/dessert/4.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Rose Blossom Panna Cotta Tart</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                   
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs959</span>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+
+      <!--================================Drinks========================-->
+      <section class="menu" id="menu">
+        <h3 class="sub-heading">Drinks</h3>
+        <h1 class="heading">Today's Speciality</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/drinks/1.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Mango Juice</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/drinks/2.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Vanilla Strawberry</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/drinks/3.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Double Decker</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                  
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/drinks/4.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <h3>Mojito</h3>
+                    <div class="stars">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star-half-alt"></li>
+                    </div>
+                    
+                    <p>Savor the exquisite flavors and indulge in the culinary delight that awaits in every dish on our menu.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <span class="price">Rs659</span>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+
+      <!--==================================footer section===================-->
+      <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Location</h3>
+                <a href="#">Port-Louis</a>
+                <a href="#">Quatre-Bornes</a>
+                <a href="#">Grand Bay</a>
+                <a href="#">Moka</a>
+                <a href="#">Flacq</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Dishes</a>
+                <a href="#">About Us</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Us</h3>
+                <a href="#">4644782</a>
+                <a href="#">59000321</a>
+                <a href="#">restohub@moris.com</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Tik Tok</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+
+        <div class="credit">Copyright @ 2024 by <span> Capil Lochun Poonyth</span></div>
+      </section>
+
+
+      
+      
+
+    <!--============================custom js file link====================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
